@@ -37,6 +37,9 @@ This project showcases the capabilities of Microsoft Fabric, demonstrating end-t
 10. **Data Validation**
     - Plotted a graph to ensure proper data modeling inside the semantic model.
 
+![image](https://github.com/PrasadDhanve/Microsoft-Fabric-Interface-and-Capabilities/assets/148265382/60787d06-b9ce-484a-96ae-aec48d5d3970)
+
+
 ## End-to-End Solution
 By following these steps, an end-to-end solution was achieved, showcasing the capabilities and integration possibilities within the Microsoft Fabric environment.
 
