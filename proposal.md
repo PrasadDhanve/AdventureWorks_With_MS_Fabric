@@ -1,37 +1,37 @@
-# Project Proposal: Implementing Microsoft Fabric for Enhanced Analytics and Data Management
+# Project Proposal: Microsoft Fabric Interface and Capabilities
 
-## 1. Introduction
-The project aims to implement Microsoft Fabric, an end-to-end analytics solution with full-service capabilities, to enhance analytics, visualization, storage, sharing, and integration processes. Fabric will serve as a comprehensive toolset for efficient data management and insightful analytics within the organization.
+## Project Overview
+The project aims to demonstrate the capabilities of Microsoft Fabric through a structured approach, showcasing end-to-end solutions within a single environment. The key focus areas include workspace creation, lakehouse setup, data wrangling, modeling, SQL querying for insights, and Power BI integration.
 
-### Objectives:
-- Enable Fabric tools within Power BI service for enhanced analytics.
-- Create a Fabric-enabled workspace and lake house named "Adventure Works" for centralized data storage and management.
-- Implement data connections, data loading, and table creation within Adventure Works lake house.
-- Utilize Fabric's features for data analysis, historical version tracking, and recovery.
-- Explore data upload, analysis, and update mechanisms using Power BI Lakehouse and Data Factory pipelines.
+## Objectives
+1. To create a workspace within the Microsoft Fabric environment.
+2. To establish a lakehouse under the workspace for structured data storage.
+3. To perform data operations including data wrangling and conversion into a star schema.
+4. To utilize the data wrangler tool for basic data operations and efficiency.
+5. To convert data into fact and dimension tables using PySpark.
+6. To create a model inside the lakehouse with established relationships for data analysis.
+7. To leverage SQL querying for insights and answering specific questions.
+8. To create a semantic model for Power BI integration within the Fabric environment.
+9. To validate data models and ensure proper data visualization using Power BI.
 
-## 2. Background
-Microsoft Fabric is a robust analytics solution that offers a wide range of tools within the Power BI service. It streamlines analytics processes, facilitates data visualization, enables secure data storage and sharing, and integrates seamlessly with other Microsoft products for enhanced functionality and insights.
+## Methodology
+1. **Workspace Creation**: Utilize the Microsoft Fabric interface to create a dedicated workspace.
+2. **Lakehouse Setup**: Establish a lakehouse infrastructure within the workspace for structured data storage.
+3. **Data Preparation and Wrangling**: Import a dataset from Kaggle and perform data wrangling to convert it into a star schema.
+4. **Data Wrangler Tool**: Utilize the data wrangler tool available in the Fabric environment for efficient data operations.
+5. **Data Conversion and Modeling**: Convert data into fact and dimension tables using PySpark and establish necessary relationships for modeling.
+6. **SQL Querying and Analysis**: Use SQL endpoints to gather insights and answer specific questions regarding the data.
+7. **Power BI Integration**: Create a semantic model for Power BI integration to visualize data within the Fabric environment.
+8. **Data Validation and Visualization**: Validate data models and ensure proper visualization using Power BI graphs and charts.
 
-## 3. Presentation Candidate
-Presenter: Prasad Dhanve
-Background: Experienced Data Analyst specializing in Business Intelligence and Analytics, proficient in SQL, Python, SSIS, Power BI, and DAX. With a track record of creating actionable insights from complex datasets.
+## Deliverables
+1. Workspace created within Microsoft Fabric.
+2. Lakehouse infrastructure established under the workspace.
+3. Dataset imported, cleaned, and converted into a star schema.
+4. Data models created, including fact and dimension tables.
+5. SQL queries developed for data analysis and insights.
+6. Semantic model created for Power BI integration.
+7. Data validation results and visualizations using Power BI.
 
-## 4. Sample Data Selection
-Sources: Microsoft
-Relevance: Data selected to demonstrate Fabric's capabilities in data loading, analysis, and visualization.
-
-## 5. Technical Technique Demonstration
-The project will showcase various technical techniques within Microsoft Fabric, including:
-- Enabling Fabric tools within Power BI service.
-- Creating a Fabric-enabled workspace and lake house.
-- Establishing data connections and loading data using Power Query.
-- Creating and managing tables within the Adventure Works lake house.
-- Utilizing historical versions of Delta tables for data analysis and recovery.
-- Uploading and analyzing delimited text files in Power BI Lakehouse.
-- Using Data Factory pipelines for data movement and processing.
-
-
-## 7. Conclusion
-The project aims to leverage Microsoft Fabric's capabilities to streamline analytics, enhance data management, and improve decision-making processes within the organization. By implementing Fabric-enabled solutions and utilizing Power BI, Data Factory, and other Microsoft products, we anticipate significant improvements in data workflows, insights generation, and operational efficiency.
-
+## Conclusion
+The project aims to demonstrate the comprehensive capabilities of Microsoft Fabric in handling end-to-end data solutions efficiently. By following a structured approach and leveraging the Fabric environment's tools and functionalities, we aim to deliver a robust data analytics and visualization solution.
